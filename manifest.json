@@ -1,0 +1,15 @@
+{
+	"name": "我的galgame网站增强插件",
+	"version": "1.0",
+	"description": "我永远喜欢烟绯\n by:wenxig",
+	"manifest_version": 3,
+	"content_scripts": [{
+		"matches": ["<all_urls>"],
+		"all_frames": true,
+		"js": ["lib/jquery.js", "lib/lodash.js" ,"content_scripts/mmgal.css.js","content_scripts/mmgal.js"]
+	}],
+	"icons": {
+		"16": "images/favicon.png",
+		"128": "images/favicon.png"
+	}
+}
